@@ -45,7 +45,7 @@ The following scatterplots were used to decide whether each relationship may be 
 
 <img width="700" alt="Screenshot 2024-07-09 at 1 15 45 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/326f79ed-f9e0-4bd4-ab0c-c87600376b71">
 
-
+The data cloud above maintains closer proximity to the gray line of best fit; removing two disruptive outliers beyond x=175,000 and taking the logarithm (base=10) of the x-variable improved linearity and ellipsoidal form to a considerable extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(PrimaryConsumpCap) is directionally negative and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(PrimaryConsumpCap) values)--and still contains some outliers. Per the blue Loess curve, the relationship is largely monotonic, so Spearman's rank correlation may be considered too.
 
 
 
