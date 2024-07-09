@@ -148,6 +148,11 @@ The model above provides a ranking of the selected variables based on their rela
 By choosing the optimal number of iterations, the model maximizes its predictive power while keeping error to a minimum, yielding a more accurate and reliable predictive model for RenewShare.
 <img width="700" alt="Screenshot 2024-07-09 at 3 34 22 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/37fefb3d-f952-480b-a52d-8f667b7091d2">
 
+The coalescence of the data cloud along the red dashed line of best fit indicates fairly accurate predictions by the model, though some outliers suggest room for improvement. Ultimately, this particular plot indicates that the holistic model of the five predictors is fairly reliable with regards to predicting the proportion of renewable energy usage in national energy consumption. The model accounts for 72.56% of the variance in the response variable, supporting the previous assertion that the GBM we constructed is a fairly accurate predictive model.
+
+### Conclusion
+
+According to the regression, association, and gradient boosting analyses, primary energy consumption per capita emerged as the most reliable predictor of the proportion of renewable energy usage in national energy consumption. This relationship can likely be explained by the tendency for regions with high energy consumption per capita to possess advanced infrastructure, resources, and policies that support renewable energy, leading to a greater share of its usage.
 
 
 
