@@ -11,3 +11,13 @@ The data was downloaded from Kaggle as a CSV file, which was then renamed "energ
 
 <img width="641" alt="Screenshot 2024-07-09 at 1 03 06 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/60f0f4d5-0558-4c07-bcc3-512a5e87a91d">
 
+## Regression
+The histogram and qq plots below illustrate the distribution of observations of RenewShare, the variable I have selected as our response variable.
+
+<img width="700" alt="Screenshot 2024-07-09 at 1 05 24 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/d2142f74-f085-42ea-b5fc-cc4b5722a9b1">
+
+<img width="700" alt="Screenshot 2024-07-09 at 1 06 02 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/5c41fdd2-cbe6-4154-9021-d68c1e9e5377">
+
+
+
+
