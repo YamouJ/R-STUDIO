@@ -135,11 +135,17 @@ I elected to use a gradient boosting machine (GBM), a powerful machine learning 
 The GBM model was configured to optimize performance and accuracy for predicting renewable energy share. It utilizes a Gaussian distribution for the continuous response variable, with 500 trees for balanced complexity and efficiency, and an interaction depth of 3 to prevent overfitting. A learning rate of 0.0.
 
 ### Figure 21: Top Predictors Influencing RenewShare
-<img width="700" alt="Screenshot 2024-07-09 at 2 52 54 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/71ba1081-3c89-4683-8664-39f666c471f4">
-
-<img width="700" alt="Screenshot 2024-07-09 at 3 22 16 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/cc334af2-1eee-4ac1-a5ae-0621a920b18c">
+<img width="700" alt="Screenshot 2024-07-09 at 3 27 10 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/3c8a8135-9d4f-4514-b428-f9ad7a0def8b">
 
 The model above provides a ranking of the selected variables based on their relative influence on the response variable (RenewShare). It calculates these influences by evaluating how often each predictor is used in splitting the data and its impact on reducing prediction error. 
+
+### Figure 22: Squared Error Loss vs. Number of Iterations
+<img width="800" alt="Screenshot 2024-07-09 at 3 30 17 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/ac018b9b-045a-4933-9fea-dc82abc8c734">
+
+-
+By choosing the optimal number of iterations, the model maximizes its predictive power while keeping error to a minimum, yielding a more accurate and reliable predictive model for RenewShare.
+<img width="700" alt="Screenshot 2024-07-09 at 3 34 22 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/37fefb3d-f952-480b-a52d-8f667b7091d2">
+
 
 
 
