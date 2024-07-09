@@ -2,9 +2,7 @@
 
 ## Introduction
 
-Utilizing a comprehensive dataset from Kaggle, titled “Global Data on Sustainable Energy (2000-2020),” I explored a broad array of indicators that provide insights into energy consumption patterns, economic growth, carbon emissions, and energy access. Despite significant global efforts to promote renewable energy, progress varies widely across different nations. Therefore, this project aims to understand the key determinants of renewable energy adoption, addressing the real-world problem of uneven progress. The dataset is designed to compare progress across countries and track advancements towards United Nations Sustainable Development Goal #7, which seeks to ensure access to affordable, reliable, sustainable, and modern energy for all.
-The dataset includes numerous key indicators: the name of the country or region, the reporting year (ranging from 2000 to 2020), and several metrics such as access to electricity and clean fuels for cooking, which reflect the population's reliance on modern energy sources. It also encompasses renewable electricity generating capacity per person, financial flows to developing countries for clean energy projects, and the share of renewable energy in total energy consumption. Additionally, it tracks electricity generation from fossil fuels, nuclear power, and renewable sources (in terawatt-hours), as well as the percentage of electricity generated from low-carbon sources. The dataset further provides data on primary energy consumption per capita, energy intensity (energy use per GDP), carbon dioxide emissions per person, the equivalent primary energy derived from renewables, annual GDP growth rates, and GDP per capita, along with population density, total land area, and geographical coordinates (latitude and longitude).
-I have selected “Renewable energy share in total final energy consumption (%)” (RenewShare) as my response variable and conducted regression, association, and gradient boosting analyses to identify the key predictors influencing its progress.
+This project analyzes the "Global Data on Sustainable Energy (2000-2020)" dataset from Kaggle to explore the key determinants of renewable energy adoption and address the uneven progress across nations. Despite global efforts, renewable energy adoption varies widely. By focusing on key indicators, the study aims to identify the main factors influencing renewable energy use and support progress towards United Nations Sustainable Development Goal #7.
 
 ## Table of Contents
 
@@ -31,14 +29,13 @@ The main objective is to identify the key determinants of renewable energy adopt
 ## Significance of Study
 The findings will help address the uneven progress in renewable energy adoption across different nations, aiding policymakers and stakeholders in developing strategies to enhance renewable energy use. This study also contributes to tracking advancements towards United Nations Sustainable Development Goal #7.
 
-## Data Cleaning
-The data was downloaded from Kaggle as a CSV file, renamed "energy.csv", and uploaded into R Studio. Columns with too many blank cells were removed, and rows with blank entries were eliminated. A subset of data from 2019 was defined, columns were renamed for clarity, and the population density variable was fixed by removing commas.
 
 ## Regression Analysis
 Separate models were constructed regressing RenewShare over individual variables in the cleaned dataset. Predictors with p-values less than 0.05 were included in the combined model, which had an RMSE of 17.42, significantly lower than the Naive model's RMSE of 27.90, suggesting at least one predictor is significant.
 
 ## Data Cleaning
-The data was downloaded from Kaggle as a CSV file, which was then renamed "energy.csv" and uploaded into R Studio. Columns deemed unusable due to containing too many blank cells were removed. Then, the rows that still contained blank entries were eliminated. To control for time, a subset that only included observations from 2019 was defined under the name “y2019”. 2019 was presumed to be the most reliable year (for future projection) that likely best reflects contemporary economic and technological conditions since COVID-19 may have temporarily disrupted development in 2020. Columns were then renamed for clarity and conciseness. Finally, the column for the (population) “density” variable was fixed through the removal of commas to satisfy numeric form. A preview of the resulting working dataset is shown below:
+The data was downloaded from Kaggle as a CSV file, renamed "energy.csv", and uploaded into R Studio. Columns with too many blank cells were removed, and rows with blank entries were eliminated. A subset of data from 2019 was defined, columns were renamed for clarity, and the population density variable was fixed by removing commas.
+
 
 <img width="641" alt="Screenshot 2024-07-09 at 1 03 06 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/60f0f4d5-0558-4c07-bcc3-512a5e87a91d">
 
