@@ -8,3 +8,6 @@ I have selected “Renewable energy share in total final energy consumption (%)�
 
 ## Data Cleaning
 The data was downloaded from Kaggle as a CSV file, which was then renamed "energy.csv" and uploaded into R Studio. Columns deemed unusable due to containing too many blank cells were removed. Then, the rows that still contained blank entries were eliminated. To control for time, a subset that only included observations from 2019 was defined under the name “y2019”. 2019 was presumed to be the most reliable year (for future projection) that likely best reflects contemporary economic and technological conditions since COVID-19 may have temporarily disrupted development in 2020. Columns were then renamed for clarity and conciseness. Finally, the column for the (population) “density” variable was fixed through the removal of commas to satisfy numeric form. A preview of the resulting working dataset is shown below:
+
+<img width="641" alt="Screenshot 2024-07-09 at 1 03 06 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/60f0f4d5-0558-4c07-bcc3-512a5e87a91d">
+
