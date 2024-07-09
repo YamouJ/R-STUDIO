@@ -36,7 +36,14 @@ On the other hand, RMSE of the models containing gdp_per_capita (26.67), EnergyI
 
 ### Figure 5: Confidence Intervals of Slope Estimates
 
-<img width="483" alt="Screenshot 2024-07-09 at 1 12 35 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/6be4d604-31ee-4b62-9e39-189ef18d5a86">
+<img width="500" alt="Screenshot 2024-07-09 at 1 12 35 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/6be4d604-31ee-4b62-9e39-189ef18d5a86">
+
+In each of the cases above, 0 is outside the 95% confidence interval of each slope estimate. This suggests that the five regressions are statistically significant.
+The following scatterplots were used to decide whether each relationship may be appropriately measured by Pearson correlation, Spearman's rank correlation, both, or neither.
+
+### Figure 6: RenewShare vs. log10(PrimaryConsumpCap)
+
+<img width="700" alt="Screenshot 2024-07-09 at 1 15 45 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/326f79ed-f9e0-4bd4-ab0c-c87600376b71">
 
 
 
