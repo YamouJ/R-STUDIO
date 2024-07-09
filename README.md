@@ -58,3 +58,6 @@ Based on the data cloud above, the relationship between RenewShare and PopAccess
 
 Based on the data cloud above, the relationship between RenewShare and PopAccessCleanFuel is directionally negative and weak. The relationship is also non-ellipsoidal and heteroscedastic. Therefore, Pearson's correlation is NOT an appropriate measure, and attempts at data transformation were again fruitless. Nonetheless, the relationship is marginally significantly linear and monotonic, so Spearman's rank correlation may be considered.
 
+### Figure 9: RenewShare vs. log10(EnergyIntensity)
+<img width="700" alt="Screenshot 2024-07-09 at 2 36 59 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/d474bb0e-3c4c-43b7-b692-b307fe3913a4">
+
