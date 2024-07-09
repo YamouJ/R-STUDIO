@@ -119,3 +119,27 @@ Squaring the Pearson's correlation coefficient for the regression of RenewShare 
 
 ### Figure 20: Chance Values of Pearson Plot for RenewShare vs. log10(gdp_per_capita)
 <img width="700" alt="Screenshot 2024-07-09 at 3 12 19 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/78ed27a6-36e0-4bd7-90af-bdb45d6a5cb3">
+
+Squaring the Pearson's correlation coefficient for the regression of RenewShare over log10(gdp_per_capita), we find R^2 = 0.3861631, indicating a fairly weak relationship.
+
+The results of the association analysis indicate that all five presumably significant predictors are indeed statistically significant--at least when enhancing via logarithmic transformation when helpful. However, among each significant predictor's separate relationship with RenewShare, the strongest was that for log10(PrimaryConsumpCap), with an R^2 = 0.5732098. This is moderate at best, so log10(PrimaryConsumpCap) may not actually be a particularly reliable predictor of RenewShare in practice. With an R^2 of 0.3861631, log10(gdp_per_capita) is a fairly weak predictor of RenewShare. 
+
+
+<img width="700" alt="Screenshot 2024-07-09 at 3 14 51 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/225ec365-e22a-4cb3-b2da-e7ceb853eae1">
+
+Log10(EnergyIntensity), PopAccessElec, and PopAccessCleanFuel are even weaker predictors in practice, despite being statistically significant in theory.
+
+### Gradient Boosting
+I elected to use a gradient boosting machine (GBM), a powerful machine learning algorithm known for its ability to build robust predictive models through ensemble learning by combining the predictions of many decision trees. It iteratively improves prediction accuracy while minimizing error by incorporating the contribution of multiple weak models into a strong one. By selecting a subset of the five most important predictors from our dataset, the complexity of the model was reduced while retaining predictive power.
+
+The GBM model was configured to optimize performance and accuracy for predicting renewable energy share. It utilizes a Gaussian distribution for the continuous response variable, with 500 trees for balanced complexity and efficiency, and an interaction depth of 3 to prevent overfitting. A learning rate of 0.0.
+
+### Figure 21: Top Predictors Influencing RenewShare
+<img width="700" alt="Screenshot 2024-07-09 at 2 52 54 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/71ba1081-3c89-4683-8664-39f666c471f4">
+
+<img width="700" alt="Screenshot 2024-07-09 at 3 22 16 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/cc334af2-1eee-4ac1-a5ae-0621a920b18c">
+
+The model above provides a ranking of the selected variables based on their relative influence on the response variable (RenewShare). It calculates these influences by evaluating how often each predictor is used in splitting the data and its impact on reducing prediction error. 
+
+
+
