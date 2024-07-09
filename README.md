@@ -61,3 +61,4 @@ Based on the data cloud above, the relationship between RenewShare and PopAccess
 ### Figure 9: RenewShare vs. log10(EnergyIntensity)
 <img width="700" alt="Screenshot 2024-07-09 at 2 36 59 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/d474bb0e-3c4c-43b7-b692-b307fe3913a4">
 
+The data cloud above maintains decent proximity to the gray line of best fit; removing three disruptive outliers beyond x=12.5 and taking the logarithm of the x-variable improved linearity and ellipsoidal form to an extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(EnergyIntensity) is directionally positive and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(EnergyIntensity) values). The relationship is largely monotonic, so Spearman's rank correlation may be considered too.
