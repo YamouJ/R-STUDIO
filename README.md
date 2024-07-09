@@ -86,4 +86,13 @@ Squaring the Pearson's correlation coefficient for the regression of RenewShare 
 
 The data cloud above maintains decent proximity to the gray line of best fit; removing three disruptive outliers beyond x=12.5 and taking the logarithm of the x-variable improved linearity and ellipsoidal form to an extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(EnergyIntensity) is directionally positive and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(EnergyIntensity) values). The relationship is largely monotonic, so Spearman's rank correlation may be considered too.
 
+### Association Analysis
+Each of the following cases, which involved 500 permutations each, found with 95% confidence that the p-values of the previously approved correlation measures were between 0 and 0.007. The fact that this range is less than 0.05, suggests that the associations between RenewShare and each of the five predictors are statistically significant. Observing the appropriate plots of Chance values, the reductions in SSE (represented by the solid red line in each case) are far beyond what happens "by chance" (per the histogram of permutations), asserting that each regression is statistically significant. However, recalling the lack of ellipsoidal form as demonstrated in our graphical analysis for PopAccessElec and PopAccessCleanFuel, we must maintain that RenewShare has particularly weak linear relationships with both of those variables.
+
+### Figure 11: Association between log10(PrimaryConsumpCap) and RenewShare 
+<img width="700" alt="Screenshot 2024-07-09 at 2 59 48 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/672ff8e2-a9b3-489a-a8fd-bb19f62a4bd4">
+
+
+Squaring the Pearson's correlation coefficient for the regression of RenewShare vs. log10 (PrimaryConsumpCap), we found R^2 = 0.5732098, indicating a moderately strong relationship.
+
 
