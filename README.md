@@ -26,6 +26,16 @@ Though not shown, I constructed separate models regressing RenewShare over each 
 
 Predictors with p-values less than 0.05 are included in the combined model below, which had an RMSE of 17.42–significantly lower (thus, better) than that of the Naive model, which had an RMSE of 27.90. This suggests that at least one of the predictors included in the combined model is significant.
 
+<img width="664" alt="Screenshot 2024-07-09 at 1 09 11 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/5c4e18c2-20b9-4d65-b814-2a942adf237f">
+- 
+
+I can also compare the RMSE values among the aforementioned individual models containing presumably significant predictors. RMSE values from the models of PopAccessElec (19.25) and PopAccessCleanFuel (18.98) is significantly less than that of naive model (27.90). This suggests that PopAccessElec and PopAccessCleanFuel may be worth including in the final model. 
+
+
+On the other hand, RMSE of the models containing gdp_per_capita (26.67), EnergyIntensity (26.56), and PrimaryConsumpCap (25.76) are not significantly less than that of the naive model. This suggests that gdp_per_capita, EnergyIntensity, and PrimaryConsumpCap may not be worth including in the final model, but this requires further analysis before making a final decision. The next step is finding the confidence intervals of the slope estimates for each of the five predictors.
+
+
+
 
 
 
