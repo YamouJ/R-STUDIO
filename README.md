@@ -34,6 +34,9 @@ I can also compare the RMSE values among the aforementioned individual models co
 
 On the other hand, RMSE of the models containing gdp_per_capita (26.67), EnergyIntensity (26.56), and PrimaryConsumpCap (25.76) are not significantly less than that of the naive model. This suggests that gdp_per_capita, EnergyIntensity, and PrimaryConsumpCap may not be worth including in the final model, but this requires further analysis before making a final decision. The next step is finding the confidence intervals of the slope estimates for each of the five predictors.
 
+### Figure 5: Confidence Intervals of Slope Estimates
+
+<img width="483" alt="Screenshot 2024-07-09 at 1 12 35 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/6be4d604-31ee-4b62-9e39-189ef18d5a86">
 
 
 
