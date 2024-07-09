@@ -18,6 +18,14 @@ The histogram and qq plots below illustrate the distribution of observations of 
 
 <img width="700" alt="Screenshot 2024-07-09 at 1 06 02 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/5c41fdd2-cbe6-4154-9021-d68c1e9e5377">
 
+The median provides a better summary of the typical value of `RenewShare` (rather than mean) since the plots above demonstrate a lack of approximate Normality.
+
+
+Though not shown, I constructed separate models regressing RenewShare over each other individual variable in the cleaned dataset. Taking the summary of each of these models helped determine whether each predictor variable could stand alone as significant, i.e., if the slope estimate of each model had a p-value less than 0.05. 
+
+
+Predictors with p-values less than 0.05 are included in the combined model below, which had an RMSE of 17.42–significantly lower (thus, better) than that of the Naive model, which had an RMSE of 27.90. This suggests that at least one of the predictors included in the combined model is significant.
+
 
 
 
