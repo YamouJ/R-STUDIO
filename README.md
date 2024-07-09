@@ -182,5 +182,7 @@ The coalescence of the data cloud along the red dashed line of best fit indicate
 
 According to the regression, association, and gradient boosting analyses, primary energy consumption per capita emerged as the most reliable predictor of the proportion of renewable energy usage in national energy consumption. This relationship can likely be explained by the tendency for regions with high energy consumption per capita to possess advanced infrastructure, resources, and policies that support renewable energy, leading to a greater share of its usage.
 
+#### References
+Tanwar, A. (n.d.). Global Data on Sustainable Energy (2000-2020) [Dataset]. https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy
 
 
