@@ -136,6 +136,8 @@ The GBM model was configured to optimize performance and accuracy for predicting
 
 ### Figure 21: Top Predictors Influencing RenewShare
 <img width="700" alt="Screenshot 2024-07-09 at 3 27 10 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/3c8a8135-9d4f-4514-b428-f9ad7a0def8b">
+<img width="700" alt="Screenshot 2024-07-09 at 3 36 05 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/f49525db-b39d-4d93-ad33-a07fb7f6f4fa">
+
 
 The model above provides a ranking of the selected variables based on their relative influence on the response variable (RenewShare). It calculates these influences by evaluating how often each predictor is used in splitting the data and its impact on reducing prediction error. 
 
