@@ -96,3 +96,26 @@ Each of the following cases, which involved 500 permutations each, found with 95
 Squaring the Pearson's correlation coefficient for the regression of RenewShare vs. log10 (PrimaryConsumpCap), we found R^2 = 0.5732098, indicating a moderately strong relationship.
 
 
+### Figure 13: Association between PopAccessElec and RenewShare 
+<img width="700" alt="Screenshot 2024-07-09 at 3 02 36 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/05cc018b-53ce-4738-b0b3-3bebd5214d0a">
+
+
+### Figure 14: Chance Values of Spearman Plot for RenewShare vs. PopAccessElec
+
+
+
+### Figure 15: Association between PopAccessCleanFuel and RenewShare 
+<img width="700" alt="Screenshot 2024-07-09 at 3 03 04 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/3a3b9497-3fdd-4bec-81c9-e6060ddb63cd">
+
+<img width="577" alt="Screenshot 2024-07-09 at 3 04 27 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/d3296550-89ab-4332-9356-82cf6ea5296f">
+
+### Figure 17: Association between log10(EnergyIntensity) and RenewShare  
+<img width="700" alt="Screenshot 2024-07-09 at 3 07 33 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/ba8cbb1f-8d35-4a6c-b054-cc44419a3634">
+
+Squaring the Pearson's correlation coefficient for the regression of RenewShare over log10(EnergyIntensity), we find R^2 = 0.1666891, indicating a weak relationship.
+
+### Figure 19: Association between log10(gdp_per_capita) and RenewShare 
+<img width="700" alt="Screenshot 2024-07-09 at 3 10 01 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/7d81b4a5-16c0-43ea-8139-afbc0a15ab88">
+
+### Figure 20: Chance Values of Pearson Plot for RenewShare vs. log10(gdp_per_capita)
+<img width="700" alt="Screenshot 2024-07-09 at 3 12 19 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/78ed27a6-36e0-4bd7-90af-bdb45d6a5cb3">
