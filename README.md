@@ -73,3 +73,17 @@ Each of the following cases, which involved 500 permutations each, found with 95
 
 <img width="700" alt="Screenshot 2024-07-09 at 2 52 54 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/38b5a0bb-2237-4021-a7ce-5e79e3526a7a">
 
+Squaring the Pearson's correlation coefficient for the regression of RenewShare vs. log10 (PrimaryConsumpCap), we found R^2 = 0.5732098, indicating a moderately strong relationship.
+
+
+### Figure 13: Association between PopAccessElec and RenewShare 
+<img width="651" alt="Screenshot 2024-07-09 at 2 55 37 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/828a2bad-686c-4ac4-90f2-ffb7a5595a7d">
+
+### Figure 14: Chance Values of Spearman Plot for RenewShare vs. PopAccessElec
+
+<img width="596" alt="Screenshot 2024-07-09 at 2 57 39 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/ee044595-fadd-471e-a336-8f11cfe1ed8c">
+
+
+The data cloud above maintains decent proximity to the gray line of best fit; removing three disruptive outliers beyond x=12.5 and taking the logarithm of the x-variable improved linearity and ellipsoidal form to an extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(EnergyIntensity) is directionally positive and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(EnergyIntensity) values). The relationship is largely monotonic, so Spearman's rank correlation may be considered too.
+
+
