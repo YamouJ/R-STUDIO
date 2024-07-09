@@ -62,3 +62,8 @@ Based on the data cloud above, the relationship between RenewShare and PopAccess
 <img width="700" alt="Screenshot 2024-07-09 at 2 36 59 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/d474bb0e-3c4c-43b7-b692-b307fe3913a4">
 
 The data cloud above maintains decent proximity to the gray line of best fit; removing three disruptive outliers beyond x=12.5 and taking the logarithm of the x-variable improved linearity and ellipsoidal form to an extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(EnergyIntensity) is directionally positive and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(EnergyIntensity) values). The relationship is largely monotonic, so Spearman's rank correlation may be considered too.
+
+### Figure 10: RenewShare vs. log10(gdp_per_capita)
+<img width="700" alt="Screenshot 2024-07-09 at 2 40 59 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/41a47712-c61e-4938-bad1-009dd6ee3693">
+
+The data cloud above maintains adequate proximity to the gray line of best fit; taking the logarithm of the x-variable improved linearity and ellipsoidal form to an extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(gdp_per_capita) is directionally positive and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(gdp_per_capita) values). The relationship is still nonmonotonic (according to the blue Loess smoother), however, so Spearman's rank correlation will not be considered.
