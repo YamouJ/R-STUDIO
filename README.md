@@ -67,3 +67,9 @@ The data cloud above maintains decent proximity to the gray line of best fit; re
 <img width="700" alt="Screenshot 2024-07-09 at 2 40 59 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/41a47712-c61e-4938-bad1-009dd6ee3693">
 
 The data cloud above maintains adequate proximity to the gray line of best fit; taking the logarithm of the x-variable improved linearity and ellipsoidal form to an extent. Therefore, Pearson's correlation may be an appropriate measure. Furthermore, the relationship between RenewShare and log10(gdp_per_capita) is directionally positive and moderate in strength yet still heteroscedastic (i.e., the width of the range of RenewShare values changes over the range of log10(gdp_per_capita) values). The relationship is still nonmonotonic (according to the blue Loess smoother), however, so Spearman's rank correlation will not be considered.
+
+### Association Analysis
+Each of the following cases, which involved 500 permutations each, found with 95% confidence that the p-values of the previously approved correlation measures were between 0 and 0.007. The fact that this range is less than 0.05, suggests that the associations between RenewShare and each of the five predictors are statistically significant. Observing the appropriate plots of Chance values, the reductions in SSE (represented by the solid red line in each case) are far beyond what happens "by chance" (per the histogram of permutations), asserting that each regression is statistically significant. However, recalling the lack of ellipsoidal form as demonstrated in our graphical analysis for PopAccessElec and PopAccessCleanFuel, we must maintain that RenewShare has particularly weak linear relationships with both of those variables.
+
+<img width="700" alt="Screenshot 2024-07-09 at 2 52 54 PM" src="https://github.com/YamouJ/R-STUDIO/assets/167350506/38b5a0bb-2237-4021-a7ce-5e79e3526a7a">
+
